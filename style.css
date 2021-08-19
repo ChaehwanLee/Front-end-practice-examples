@@ -34,7 +34,7 @@ button {
 
 input, textarea {
     outline: none;
-} 
+}
 
 .container {
     width: 1130px;
@@ -209,7 +209,7 @@ main #blog-wrap .blog-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     padding-bottom: 17px;
 }
 
@@ -607,7 +607,7 @@ main .blog-media-wrap ul li .blog-media-info span {
 #shop-main .list-item .category-wrap .category-left h3 {
     padding: 14px 0 14px 13px;
     border-bottom: 1px solid #2b313f;
-    
+
     font-size: 13px;
     color: rgba(255, 255, 255, 0.46);
     font-weight: 700;
@@ -654,7 +654,7 @@ main .blog-media-wrap ul li .blog-media-info span {
 }
 
 #shop-main .list-item .category-right-top .category-info .price {
-    
+
     color: skyblue;
 }
 
@@ -985,7 +985,7 @@ main .blog-media-wrap ul li .blog-media-info span {
     width: 1px;
     height: 13px;
     background-color: #d2d2d2;
-    margin: 0 10px 0 8px; 
+    margin: 0 10px 0 8px;
 }
 
 #webtoon-header .webtoon-header-top .webtoon-header-left h3 {
@@ -1434,7 +1434,7 @@ main .blog-media-wrap ul li .blog-media-info span {
     margin-bottom: 8px;
 }
 
-#webtoon-main .webtoon-main-right .webtoon-popular {   
+#webtoon-main .webtoon-main-right .webtoon-popular {
     background-color: #ffffff;
     margin-bottom: 8px;
 }
@@ -1591,7 +1591,7 @@ main .blog-media-wrap ul li .blog-media-info span {
 }
 
 #webtoon-footer .webtoon-container {
-    
+
     padding-top: 40px;
     border-top: solid 1px #e6e7e8;
 }
@@ -1604,9 +1604,9 @@ main .blog-media-wrap ul li .blog-media-info span {
     margin-bottom: 32px;
 }
 
-#webtoon-footer .webtoon-container .webtoon-footer-wrap .webtoon-footer-left, 
+#webtoon-footer .webtoon-container .webtoon-footer-wrap .webtoon-footer-left,
 #webtoon-footer .webtoon-container .webtoon-footer-wrap .webtoon-footer-right {
-    
+
     width: 50%;
     padding-left: 25px;
 }
@@ -1972,7 +1972,7 @@ main .blog-media-wrap ul li .blog-media-info span {
 #blog-header .blog-header-top .blog-header-right .btn-menu {
     width: 60px;
     height: 60px;
-    
+
     border-left: solid 1px #239e36;
     border-right: solid 1px #239e36;
     cursor: pointer;
@@ -2101,7 +2101,7 @@ main .blog-media-wrap ul li .blog-media-info span {
     font-size: 16px;
 }
 
-#blog-main #hot-topic .hot-topic-left .topic-heading h3:hover, 
+#blog-main #hot-topic .hot-topic-left .topic-heading h3:hover,
 #blog-main #hot-topic .hot-topic-left .topic-heading a:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -2217,7 +2217,7 @@ main .blog-media-wrap ul li .blog-media-info span {
     font-size: 14px;
 }
 
-#blog-main-content  #blog-article .blog-article-nav ul { 
+#blog-main-content  #blog-article .blog-article-nav ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -3111,4 +3111,2884 @@ main .blog-media-wrap ul li .blog-media-info span {
     border-left: solid 1px #dfdfdf;
 
     padding: 25px 0 40px 26px;
+}
+
+
+
+
+
+
+
+
+
+/* Game */
+
+.game-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.game-flex-between {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.game-flex-start {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.game-flex-end {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+/* 오른쪽에서 부터 정렬되도록 */
+
+.game-flex-center {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.game-shadow {
+    box-shadow: 0 2px 30px 0 rgb(0 0 0 / 6%);
+}
+
+.game-p-30 {
+    padding: 30px;
+}
+/* 숫자를 하나 입력시 모든 패딩을 통일, 상하좌우 동일 값 */
+
+.font-17 {
+    font-size: 17px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+#game-body {
+    background-color: #f8f9fd;
+}
+
+/* 상단 해더 영역 작업 */
+/* 네비게이션 부분 */
+
+#game-header {
+    width: 100%;
+    background-color: #4e41db;
+}
+
+#game-header nav {
+    height: 60px;
+}
+
+#game-header nav .left {
+
+}
+
+#game-header nav .left h1 {
+    font-size: 20px;
+}
+
+#game-header nav .left h1 a {
+    color: #ffffff;
+}
+
+#game-header nav .left ul {
+
+}
+
+#game-header nav .left ul li {
+
+}
+
+#game-header nav .left ul li a {
+    color: #9da5b6;
+    font-size: 18px;
+}
+
+#game-header nav .left ul li a::before {
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 14px;
+    border-radius: .5px;
+    background-color: #9da5b6;
+
+    margin: 0 12px;
+}
+
+#game-header nav .right {
+
+}
+
+#game-header nav .right .search-wrap {
+    overflow: hidden;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .28);
+}
+
+#game-header nav .right .search-wrap input {
+    width: calc(100% - 38px);
+    height: 38px;
+    background-color: transparent;
+    padding: 10px 12px 9px 14px;
+    border: none;
+
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#game-header nav .right .search-wrap input:focus {
+    outline: none;
+}
+
+#game-header nav .right .search-wrap button {
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+    border: none;
+}
+
+#game-header nav .right .ticket-wrap {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+#game-header nav .right .ticket-wrap .btn-ticket {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #ffffff;
+}
+
+#game-header nav .right .ticket-wrap .bubble-msg {
+    position: absolute;
+    width: 165px;
+    background-color: #697183;
+    border-radius: 8px;
+
+    padding: 10px 12px;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+
+    z-index: 100;
+}
+
+#game-header nav .right .btn-login {
+    width: 60px
+    border: solid 1px hsla(0, 0%, 80%, .3);
+    border-radius: 8px;
+
+    padding: 7px 0 6px;
+    margin-left: 10px;
+
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#game-header .game-events-wrap {
+    padding: 80px 0;
+}
+
+#game-header .game-events-wrap .event-wrap {
+    position: relative;
+    width: 407px;
+    height: 264px;
+    border-radius: 40px;
+
+    top: 0;
+    transition: top linear 0.45s;
+}
+
+#game-header .game-events-wrap .event-wrap:hover {
+    top: -20px;
+}
+
+#game-header .game-events-wrap .event-wrap.one {
+    background-color: rgb(112, 104, 236);
+}
+
+#game-header .game-events-wrap .event-wrap.two {
+    background-color: rgb(69, 39, 39);
+}
+
+#game-header .game-events-wrap .event-wrap.three {
+    background-color: rgb(112, 117, 181);
+}
+
+#game-header .game-events-wrap .event-wrap .event-title-wrap {
+    position: absolute;
+
+    left: 30px;
+    bottom: 30px;
+
+    color: #ffffff;
+}
+
+#game-header .game-events-wrap .event-wrap .event-title-wrap span {
+    display: block;
+    width: 30px;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+
+    padding: 4px 8px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+#game-header .game-events-wrap .event-wrap .event-title-wrap h2 {
+    font-size: 20px;
+}
+
+#game-main .game-container {
+    align-items: stretch;
+}
+
+#game-main .left {
+    /* float: left; */
+
+    width: 900px;
+    height: 2000px;
+    background-color: yellow;
+}
+
+#game-main .left .left-banner {
+    overflow: hidden; /* 볼더 레이우스가 적용된 범위 벗어나면 모두 히든 처리(그래야 둥글게 나옴) */
+    width: 900px;
+    height: 120px;
+    border-radius: 12px;
+    /* box-shadow: 0 2px 30px 0 rgb(0 0 0 / 6%); 위쪽 게임 쉐도우와 값이 같아서 삭제*/
+
+    margin-bottom: 24px;
+}
+
+#game-main .left .left-banner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#game-main .left .left-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 특정 섹션 클래스를 기준으로 초기화 작업진행 가능 */
+.game-section {
+	position: relative;
+
+	background-color: #ffffff;
+	box-shadow: 0 2px 30px 0 rgb(0 0 0 / 6%);
+	border-radius: 12px;
+
+	padding: 27px 30px 40px;
+	margin-bottom: 40px;
+}
+
+.game-section .section-title-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.game-section .section-title-wrap h2 {
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.game-section .section-middle-nav {
+
+}
+
+.game-section .section-middle-nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+
+	border-bottom: 1px solid rgba(0, 0, 0, .07);
+}
+
+.game-section .section-middle-nav li {
+
+}
+
+.game-section .section-middle-nav a {
+	display: block;
+	padding: 14px;
+	border-bottom: solid 3px transparent;
+	color: #777;
+}
+
+.game-section .section-middle-nav a.active {
+	border-bottom: solid 3px #7776ff;
+	font-weight: 700;
+	color: #7776ff;
+}
+
+.game-section .section-body-wrap {
+	margin-top: 18px;
+}
+
+.game-section .section-body-wrap .image-txt-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.game-section .section-body-wrap .image-txt {
+	width: 407.5px;
+}
+
+.game-section .section-body-wrap img {
+	width: 180px;
+	height: 100px;
+	border-radius: 8px;
+	border: solid 1px rgba(0, 0, 0, .06);
+
+	margin-right: 15px;
+}
+
+.game-section .section-body-wrap .txt {
+	width: 212px;
+}
+
+.game-section .section-body-wrap .title {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 20px;
+
+	margin-bottom: 3px;
+}
+
+.game-section .section-body-wrap .source {
+	font-size: 13px;
+	color: #999;
+}
+
+.game-section .btn-circle {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 30px 0 rgb(0 0 0 / 6%);
+
+	bottom: -27.5px;
+
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.game-section .btn-circle.icon-arrow {
+	background-color: grey;
+}
+
+.game-section .btn-circle.icon-plus {
+	background-color: blue;
+}
+
+#game-section-1 {
+
+}
+
+#game-section-1 .section-btn-wrap {
+
+}
+
+#game-section-1 .section-btn-wrap a {
+	font-size: 14px;
+	color: #9da5b6;
+	font-weight: 700;
+}
+
+#game-section-1 .section-btn-wrap a.active {
+	color: #7776ff;
+}
+
+#game-section-1 .section-btn-wrap a:last-child {
+	margin-left: 14px;
+}
+
+
+#game-section-1 ol {
+
+}
+
+#game-section-1 ol li  {
+	padding: 10px 0;
+	border-bottom: solid 1px rgba(0, 0, 0, .03);
+}
+
+#game-section-1 ol li a {
+
+}
+
+#game-section-1 ol li .game-thumbnail {
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+#game-section-1 ol li .txt-info {
+	width: 690px;
+	margin-right: 10px;
+}
+
+#game-section-1 ol li .txt-info h3 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+
+#game-section-1 ol li .txt-info .source-wrap {
+
+}
+
+#game-section-1 ol li .txt-info .source-wrap .game {
+	font-size: 13px;
+	color: #858894;
+	margin-right: 5px;
+}
+
+#game-section-1 ol li .txt-info .source-wrap .author {
+	font-size: 13px;
+	color: #858894;
+	margin-right: 5px;
+}
+
+#game-section-1 ol li .txt-info .source-wrap .level {
+	font-size: 13px;
+	color: #858894;
+	margin-right: 5px;
+}
+
+#game-section-1 ol li .txt-info .source-wrap .rank {
+	font-size: 13px;
+	color: #858894;
+}
+
+#game-section-1 ol li .blog-thumbnail {
+	border-radius: 8px;
+}
+
+#game-section-2 {
+
+}
+
+#game-section-2 .section-title-wrap .more {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#game-section-2 .section-body-wrap {
+
+}
+
+#game-section-2 .section-body-wrap ul {
+	margin-top: 25px;
+}
+
+#game-section-2 .section-body-wrap li {
+	margin-bottom: 11px;
+}
+
+#game-section-2 .section-body-wrap li:last-child {
+	margin-bottom: 0;
+}
+
+#game-section-2 .section-body-wrap a {
+
+}
+
+#game-section-2 .section-body-wrap ul .title {
+	width: 776px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#game-section-2 .section-body-wrap ul .source {
+
+}
+
+#game-section-3 .section-body-wrap .image-txt .category {
+	display: block;
+
+	font-size: 13px;
+	color: #7776ff;
+	margin-bottom: 3px;
+}
+
+#game-main .right {
+	width: 358px;
+}
+
+#game-section-4 ol {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#game-section-4 li {
+
+}
+
+#game-section-4 a {
+	display: block;
+}
+
+#game-section-4 .image-wrap {
+	position: relative;
+	overflow: hidden;
+	width: 263px;
+	height: 148px;
+	border-radius: 8px;
+}
+
+#game-section-4 .image-wrap img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#game-section-4 .image-wrap .icon-play {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: grey;
+
+	left: 10px;
+	bottom: 12px;
+}
+
+#game-section-4 .image-wrap .time {
+	position: absolute;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 6px;
+	padding: 2px 6px;
+
+	color: #ffffff;
+	font-size: 14px;
+
+	right: 10px;
+	bottom: 10px;
+}
+
+#game-section-4 .section-body-wrap .image-txt {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#game-section-4 .image-txt h3 {
+	font-size: 15px;
+}
+
+#game-section-4 .image-txt .source,
+#game-section-4 .image-txt .count {
+	font-size: 13px;
+	color: #999;
+}
+
+#game-section-5 .section-title-wrap .info {
+	font-size: 13px;
+	color: #999999;
+}
+
+#game-section-5 .section-body-wrap .image-wrap {
+	position: relative;
+	width: 190px;
+	height: 120px;
+}
+
+#game-section-5 .section-body-wrap .image-wrap img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: none;
+	margin-right: 0;
+}
+
+#game-section-5 .section-body-wrap .image-wrap .badge {
+	position: absolute;
+	display: inline-block;
+
+	color: #ffffff;
+	background-color: #4e41db;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 4px 8px;
+	border-radius: 8px;
+
+	top: -5px;
+	left: -5px;
+}
+
+#game-section-5 .section-body-wrap .image-wrap .badge.open {
+	background-color: red;
+}
+
+
+#game-section-5 .section-body-wrap .txt-wrap {
+	margin-top: 12px;
+}
+
+#game-section-5 .section-body-wrap .txt-wrap h3 {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#game-section-5 .section-body-wrap .txt-wrap p {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+#game-section-5 .section-body-wrap .txt-wrap span {
+	font-size: 13px;
+	color: grey;
+}
+
+#game-section-6 .section-body-wrap img {
+	width: 80px;
+	height: 80px;
+	border-radius: 30px;
+}
+
+#game-section-6 .section-body-wrap .category {
+	font-size: 15px;
+}
+
+#game-section-6 .section-body-wrap .txt {
+	width: 300px;
+}
+
+#game-section-6 .section-body-wrap .title {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	font-size: 13px;
+	color: #666;
+}
+
+#game-section-6 .section-body-wrap .source {
+    display: inline-block;
+    margin-top: 5px;
+}
+#game-section-6 .section-body-wrap .source:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+#game-main .right {
+    width: 358px;
+    /* height: 3000px;
+    background-color: lightyellow; */
+
+}
+.right-section {
+    box-shadow: 0 2px 30px 0 rgb(0 0 0 / 6%);
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+}
+.right-section .title-wrap h2 {
+    font-size: 17px;
+    font-weight: 700;
+}
+.right-section .title-wrap a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+}
+.right-section .right-section-body {
+    margin-top: 20px;
+}
+
+
+
+
+#visitor-section .text-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#visitor-section .text-wrap p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #9da5b6;
+    text-align: center;
+}
+/* input-wrap을 중앙정렬하기
+1. 나: margin: 18px auto 0 auto;
+2. 네이버: flex로 감싸서 센터정렬
+*/
+#visitor-section .text-wrap .input-wrap {
+    position: relative;
+    overflow: hidden;
+
+    width: 250px;
+    height: 44px;
+    background-color: #f5f6fa;
+    border-radius: 12px;
+    margin-top: 18px;
+    /* margin: 18px auto 0 auto; */
+}
+/* input태그 border 없애면 선택 시 outline도 없음 */
+#visitor-section .text-wrap .input-wrap input {
+    width: calc(100% - 44px);
+    height: 100%;
+    padding: 10px 16px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+/* #visitor-section .text-wrap .input-wrap input:focus {
+    outline: none;
+} */
+#visitor-section .text-wrap .input-wrap button {
+    width: 44px;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+}
+
+
+
+
+
+
+.rank-section .right-section-body li {
+    margin-bottom: 16px;
+}
+
+.rank-section .right-section-body li:last-child {
+    margin-bottom: 0;
+}
+/* y축 중앙정렬 */
+.rank-section .right-section-body li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.rank-section .right-section-body li a::after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url(../img/next.png) no-repeat;
+    background-size: 10px;
+}
+/* text-align: inline 영역인 글자에만 적용되는 속성이라
+div 태그인 equal 클래스를 inline-block으로 바꿔줌 */
+.rank-section .right-section-body li .count-wrap {
+    position: relative;
+    width: 25px;
+    /* text-align: center; */
+}
+
+
+.rank-section .right-section-body li .count-wrap .count {
+    font-size: 17px;
+    font-weight: 700;
+    font-style: italic;
+    color: #000;
+}
+/* 순위 나타내는 숫자가 위아래 중앙에 오게 하려면 .up-down-wrap 부분이 flex-start + align center에
+영향 안 받아야 함.
+up-down-wrap 영역이 flex-start 영향에서 벗어나게 하기 위해 absolute 사용 */
+.rank-section .right-section-body li .count-wrap .up-down-wrap {
+    position: absolute;
+    bottom: -13px;
+}
+.rank-section .right-section-body li .count-wrap .up-down-wrap .equal {
+    display: inline-block;
+    width: 5px;
+    height: 3px;
+    background-color: gray;
+    margin-left: 4px;
+}
+/* position 변경없이 margin, padding으로 움직이려 하니 위치 변동 없었음
+마진병합인지 아니면 position때문에 위치변경이 안된건지
+*/
+.rank-section .right-section-body li .count-wrap .up-down-wrap span {
+    position: relative;
+    display: inline-block;
+    top: 5px;
+}
+.rank-section .right-section-body li .count-wrap .up-down-wrap span::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 7px;
+    height: 3px;
+    margin-right: 1px;
+
+    top: -3px;
+}
+.rank-section .right-section-body li .count-wrap .up-down-wrap .up {
+    color: crimson;
+}
+.rank-section .right-section-body li .count-wrap .up-down-wrap .up::before {
+    background-color: crimson;
+}
+
+.rank-section .right-section-body li .count-wrap .up-down-wrap .down {
+    color: blue;
+}
+.rank-section .right-section-body li .count-wrap .up-down-wrap .down::before {
+    background-color: blue;
+}
+
+/* overflow:hidden 사용하니 chk가 잘려서 보임 */
+.rank-section .right-section-body li .img-wrap {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-right: 14px;
+}
+.rank-section .right-section-body li .img-wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: solid 1px rgba(0, 0, 0, 0.06);
+}
+.rank-section .right-section-body li .img-wrap .chk {
+    position: absolute;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-color: #634ea4;
+    border-radius: 50px;
+
+    top: -4px;
+    right: -4px;
+}
+
+
+.rank-section .right-section-body li .txt-wrap {
+    width: 180px;
+    margin-right: 10px;
+}
+.rank-section .right-section-body li .txt-wrap h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000;
+}
+.rank-section .right-section-body li .txt-wrap .genre {
+    font-size: 13px;
+    color: #999;
+}
+
+
+.rank-section .right-section-body .time {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #999;
+}
+
+
+
+
+
+
+
+#news-section .right-section-body li {
+    margin-bottom: 10px;
+}
+#news-section .right-section-body li:nth-child(1),
+#news-section .right-section-body li:nth-child(2) {
+    font-weight: bold;
+}
+#news-section .right-section-body li:last-child {
+    margin-bottom: 0;
+}
+#news-section .right-section-body li a {
+    display: block;
+    width: 100%;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-size: 15px;
+    color: #000;
+
+}
+#news-section .right-section-body li a::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+
+    width: 3px;
+    height: 3px;
+    background-color: gray;
+    top: -5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+#week-section li {
+    margin-bottom: 16px;
+}
+#week-section li:last-child {
+    margin-bottom: 0;
+}
+#week-section li a img {
+    width: 128px;
+    height: 72px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+#week-section li a .txt-wrap h3 {
+    font-size: 15px;
+}
+#week-section li a .txt-wrap .genre {
+    font-size: 13px;
+    color: #999;
+}
+
+
+
+.right .game-banner a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.right .game-banner a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#game-footer-section a {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+#game-footer-section a::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background-color: #ddd;
+    margin: 4px 10px 0;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* .game-container랑 수치 같아서 따로 만들지 않았음 */
+/* .esport-container {
+    width: 1280px;
+    margin: 0 auto;
+} */
+
+
+/* fixed의 위치는 브라우저 기준. left, top을 이용해 위치 지정해 줌으로써
+스크롤 내려도 왼쪽 상단 같은 위치에 고정되게 만듦 */
+#esport-header {
+    position: fixed;
+    width: 100%;
+    background-color: #151618;
+    left: 0;
+    top: 0;
+    border-bottom: solid 1px lightgray;
+    z-index: 999;
+}
+#esport-header #esport-nav a {
+    color: #ffffff;
+}
+/* flex로 인해 60px 안에서 y축 중앙정렬 자동으로 됨 */
+#esport-header #esport-nav .nav-wrap {
+    height: 60px;
+}
+#esport-header #esport-nav .nav-wrap .left {
+    font-weight: 700;
+}
+#esport-header #esport-nav .nav-wrap .left h1 {
+    font-size: 20px;
+}
+#esport-header #esport-nav .nav-wrap .left li::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 14px;
+    margin: 0 12px;
+    background-color: rgba(160, 165, 182, .3);
+}
+#esport-header #esport-nav .nav-wrap .left li a {
+    color: gray;
+}
+
+
+
+
+
+#esport-header #esport-nav .center li {
+    margin-right: 24px;
+}
+#esport-header #esport-nav .center li:last-child {
+    margin-right: none;
+}
+/* a의 영역 넓힐 때 고정높이 주면 되는데 괜히 100% 했다가
+부모인 center부터 높이값을 줘야 했다. */
+#esport-header #esport-nav .center li a {
+    display: inline-block;
+    height: 60px;
+    border-bottom: solid 5px transparent;
+    padding: 0 7px;
+
+    color: gray;
+    font-size: 17px;
+    line-height: 60px;
+    font-weight: 700;
+}
+#esport-header #esport-nav .center li a.on {
+    border-bottom: solid 5px #fff;
+    color: #fff;
+}
+#esport-header #esport-nav .center li a:hover {
+    color: lightgray;
+}
+#esport-header #esport-nav .center li a.on:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+#esport-header #esport-nav .right .btn-login {
+    border: solid 1px hsla(0, 0%, 80%, .3);
+    border-radius: 8px;
+    padding: 4px 8px;
+
+    font-size: 12px;
+    margin-right: 10px;
+}
+#esport-header #esport-nav .right .btn-menu {
+    width: 40px;
+    height: 40px;
+    margin: 22px 0 0 5px;
+    background: url(../img/menu-white.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+
+
+
+#esport-main {
+    padding-top: 61px;
+}
+#esport-main-top {
+    background-color: #151618;
+
+}
+#esport-main-top a {
+    color: #fff;
+}
+
+
+#esport-main-top .timeline-wrap {
+    padding: 20px 0;
+}
+#esport-main-top .timeline-wrap li {
+    width: 16.6%;
+    background-color: #272b31;
+    border-radius: 10px;
+    margin-right: 1px;
+}
+#esport-main-top .timeline-wrap li:last-child {
+    margin-right: 0;
+}
+#esport-main-top .timeline-wrap li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 146px;
+    padding: 14px 18px;
+
+    font-size: 12px;
+}
+#esport-main-top .timeline-wrap li a h2 {
+    font-size: 13px;
+    margin: 6px 0;
+    color: #a0a5b6;
+}
+
+
+/* 강의에 없는 부분. 리스트 내용물에 따라 있었다가 없어지는 영역이라
+배치 고려 필요 */
+#esport-main-top .timeline-wrap li a .match-wrap span{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#esport-main-top .timeline-wrap li a .status-wrap {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#esport-main-top .timeline-wrap li a .status-wrap.on .time,
+#esport-main-top .timeline-wrap li a .status-wrap .live,
+#esport-main-top .timeline-wrap li a .status-wrap .status {
+    display: none;
+}
+#esport-main-top .timeline-wrap li a .status-wrap .time,
+#esport-main-top .timeline-wrap li a .status-wrap.on .live,
+#esport-main-top .timeline-wrap li a .status-wrap.on .status {
+    display: initial;
+}
+#esport-main-top .timeline-wrap li a .status-wrap .time {
+    color: #595e71;
+}
+#esport-main-top .timeline-wrap li:first-child a .status-wrap .time {
+    color: #fff;
+}
+#esport-main-top .timeline-wrap li a .status-wrap .live {
+    font-weight: 700;
+}
+#esport-main-top .timeline-wrap li a .status-wrap .status {
+    color: red;
+    font-weight: 500;
+}
+
+
+
+
+
+#esport-main-top .live-wrap {
+    padding-bottom: 60px;
+}
+#esport-main-top .live-wrap h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#esport-main-top .live-wrap h2 span {
+    color: #8a7cff;
+}
+#esport-main-top .live-wrap li {
+    width: 625px;
+    background-color: #272b31;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* display:block을 하니 display:flex가 안먹히는듯 */
+#esport-main-top .live-wrap li a {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+#esport-main-top .live-wrap .img-wrap {
+    position: relative;
+    width: 442px;
+    height: 250px;
+    overflow: hidden;
+}
+#esport-main-top .live-wrap .img-wrap:hover img {
+    transform: scale(1.1);
+    transition: transform 0.1s linear;
+}
+#esport-main-top .live-wrap .img-wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#esport-main-top .live-wrap .img-wrap .status {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 14px 14px 0;
+    font-size: 12px;
+}
+#esport-main-top .live-wrap .img-wrap .live {
+    background-color: red;
+    padding: 3px 7px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+#esport-main-top .live-wrap .img-wrap .watch-count {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px 7px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+#esport-main-top .live-wrap .txt-wrap {
+    width: 180px;
+    padding: 17px 20px 22px;
+}
+#esport-main-top .live-wrap .txt-wrap span {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+#esport-main-top .live-wrap .txt-wrap h3 {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+#esport-main .content-wrap {
+    overflow: hidden;
+    padding-top: 30px;
+}
+#esport-main .left {
+    float: left;
+    width: 900px;
+    /* height: 3000px; */
+    /* background-color: lightseagreen; */
+}
+#esport-main-article {
+    overflow: hidden;
+    width: 100%;
+    height: 468px;
+    background-color: lime;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#esport-main-article .article {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+#esport-main-article .article.full {
+    height: 100%;
+    background-color: linen;
+}
+#esport-main-article .article img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* 선형 그라데이션 만들기
+linear-gradient(direction, start-color, end-color) */
+#esport-main-article .article .overlay {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient( to top, #000000, transparent);
+
+    left: 0;
+    bottom: 0;
+}
+#esport-main-article .article .txt-wrap {
+    position: absolute;
+    width: 100%;
+    padding: 0 24px 20px;
+
+    color: #fff;
+    left: 0;
+    bottom: 0;
+}
+#esport-main-article .article .txt-wrap h3 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+}
+#esport-main-article .article .txt-wrap h3:hover {
+    text-decoration: underline;
+}
+#esport-main-article .article .txt-wrap p {
+    display: -webkit-box;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    max-height: 57px;
+
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    margin-top: 5px;
+
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+}
+#esport-main-article .article .txt-wrap .source {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: hsla(0,0%,100%,.7);
+}
+#esport-main-article .article .txt-wrap .source:hover {
+    text-decoration: none;
+}
+
+
+
+
+.esport-section {
+    border-top: solid 1px #f1f1f1;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.esport-section .title-wrap {
+    padding: 15px 0;
+}
+.esport-section .title-wrap h2 {
+    font-size: 18px;
+}
+.esport-section .title-wrap h2::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/next.png) no-repeat;
+    background-size: 12px;
+    background-position: center;
+    vertical-align: -3px;
+}
+
+
+
+
+
+#esport-replay .game-menu {
+    margin-bottom: 24px;
+}
+#esport-replay .game-menu ul li {
+    margin-right: 20px;
+}
+#esport-replay .game-menu ul li:last-child {
+    margin-right: 0;
+}
+#esport-replay .game-menu ul li a {
+    display: block;
+    width: 60px;
+    /* height: 82px; */
+    text-align: center;
+    font-size: 13px;
+}
+#esport-replay .game-menu ul li a.on i {
+    background-color: #4e41db;
+}
+#esport-replay .game-menu ul li a.on span {
+    color: #4e41db;
+    font-weight: 700;
+}
+#esport-replay .game-menu ul li a i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+#esport-replay .play-lists li {
+    width: 285px;
+    margin-bottom: 24px;
+}
+#esport-replay .play-lists li a {
+    display: block;
+}
+#esport-replay .play-lists .img-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+    margin-bottom: 11px;
+}
+#esport-replay .play-lists .img-wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#esport-replay .play-lists .img-wrap .status-wrap {
+
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+
+    left: 0;
+    bottom: 0;
+}
+#esport-replay .play-lists .img-wrap .status-wrap i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/play.png) no-repeat;
+    background-size: 20px;
+}
+/*
+overflow, float, display, position 관련
+공간 만들기
+배치
+폰트 속성
+*/
+#esport-replay .play-lists .img-wrap .status-wrap .time {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px 5px;
+    border-radius: 3px;
+
+    font-size: 11px;
+    color: #fff;
+}
+#esport-replay .play-lists h3 {
+    font-size: 15px;
+}
+
+
+
+
+
+
+#esport-news .article-wrap {
+    align-items: flex-start;
+}
+#esport-news .article-wrap .left-lists {
+    width: 472px;
+}
+#esport-news .article-wrap .left-lists li {
+    width: 226px;
+    margin-right: 20px;
+}
+#esport-news .article-wrap .left-lists li:last-child {
+    margin-right: 0;
+}
+#esport-news .article-wrap .left-lists li a  {
+    display: block;
+}
+#esport-news .article-wrap .left-lists li img {
+    width: 100%;
+    height: 132px;
+    margin-bottom: 9px;
+    border-radius: 10px;
+}
+#esport-news .article-wrap .left-lists li h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+/* 여러 줄 말줄임 */
+#esport-news .article-wrap .left-lists li p {
+    display: -webkit-box;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    max-height: 38px;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    font-size: 14px;
+    color: #777;
+    line-height: 19px;
+}
+
+
+
+
+#esport-news .article-wrap .right-lists {
+    width: 400px;
+    padding-right: 20px;
+}
+#esport-news .article-wrap .right-lists li {
+    margin-bottom: 7px;
+}
+#esport-news .article-wrap .right-lists li a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+#esport-news .article-wrap .right-lists li a::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: gray;
+    margin: 0 7px 5px;
+
+}
+
+
+
+
+
+
+#esport-expert .news-lists li {
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+#esport-expert .news-lists li a img {
+    width: 153px;
+    height: 86px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+#esport-expert .news-lists li .txt-wrap {
+    width: 268px;
+}
+#esport-expert .news-lists li .txt-wrap h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* 여러 줄 밀줄임
+1. overflow:hidden
+2. max-height
+3. webkit-line-clamp 말줄임 시작할 줄, -webkit-box-orient 말줄임 방향
+4. display: -webkit-box; 말줄임 표시 나타남
+white-space: nowrap은 한 줄로 길게 이어지게 하는거니까 사용하지 않음
+*/
+#esport-expert .news-lists li .txt-wrap p {
+    display: -webkit-box;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    max-height: 38px;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    margin-top: 4px;
+
+    font-size: 14px;
+    color: #777;
+    line-height: 19px;
+}
+#esport-expert .news-lists li .txt-wrap .source {
+    font-size: 13px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+#esport-main .right {
+    float: right;
+    width: 357px;
+    /* height: 3000px; */
+    /* background-color: lightskyblue; */
+}
+#esport-news-view {
+    padding: 20px;
+    border: solid 1px #ededed;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#esport-news-view h2 {
+    font-size: 18px;
+}
+#esport-news-view ol {
+    margin-top: 20px;
+}
+#esport-news-view li {
+    margin-bottom: 8px;
+}
+#esport-news-view li:last-child {
+    margin-bottom: 0;
+}
+#esport-news-view li a {
+
+}
+/* inherits 부모의 속성값을 이어 받음 */
+#esport-news-view li a .img-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 84px;
+    height: 48px;
+    border: solid 1px rgba(0,0,0,.4);
+    border-radius: 10px;
+}
+#esport-news-view li a .img-wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* border-radius 원하는 곳에만 적용하기 */
+#esport-news-view li a .img-wrap .rank {
+    position: absolute;
+    padding: 4px 8px;
+    background-color: #4e41db;
+
+    border-bottom-right-radius: 8px;
+    /* border-radius: 0 0 8px 0; */
+
+    top: 0;
+    left: 0;
+
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+/*
+여러 줄 말줄임 할 때 text-overflow 안해도 작동됨
+*/
+#esport-news-view li a h3 {
+    overflow: hidden;
+    display: -webkit-box;
+
+    width: 218px;
+    max-height: 38px;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+
+
+#esport-schedule {
+
+}
+#esport-schedule h2 {
+    font-size: 18px;
+}
+#esport-schedule .schedule-wrap {
+    margin-top: 15px;
+    border: solid 1px #ededed;
+    border-radius: 10px;
+}
+#esport-schedule .schedule-wrap .schedule-header {
+    padding: 10px 15px;
+    border-bottom: solid 1px #ededed;
+}
+#esport-schedule .schedule-wrap .schedule-header .arrow {
+    width: 20px;
+    height: 20px;
+}
+#esport-schedule .schedule-wrap .schedule-header .arrow.arrow-left {
+    background-color: yellow;
+}
+#esport-schedule .schedule-wrap .schedule-header .arrow.arrow-right {
+    background-color: yellowgreen;
+}
+/* span태그 아래 약간의 공백 있음 */
+#esport-schedule .schedule-wrap .schedule-header span {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+#esport-schedule .schedule-wrap .schedule-body {
+    /* padding: 17px 0; */
+}
+#esport-schedule .schedule-wrap .schedule-body li {
+    padding-top: 17px;
+}
+/* 가로줄 넣기
+*/
+#esport-schedule .schedule-wrap .schedule-body li::after {
+    content: "";
+    display: block;
+    width: calc(100% - 40px);
+    margin: 17px auto 0;
+    height: 1px;
+    background-color: rgba(0,0,0,.05);
+}
+#esport-schedule .schedule-wrap .schedule-body li h3 {
+    margin-bottom: 12px;
+
+    font-size: 14px;
+    text-align: center;
+}
+#esport-schedule .schedule-wrap .schedule-body li .status-wrap:hover {
+    background-color: paleturquoise;
+    cursor: pointer;
+}
+#esport-schedule .schedule-wrap .schedule-body li .status-wrap .status {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-right: 4.5px;
+
+    color: red;
+    font-weight: 500;
+    font-size: 11px;
+}
+#esport-schedule .schedule-wrap .schedule-body li .status-wrap .time {
+    position: relative;
+    top: -2px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* 웹 폰트 서체 적용 */
+
+
+
+
+
+.audio-container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#audio-header {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid 1px #efeff4;
+
+    left: 0;
+    top: 0;
+
+    z-index: 999;
+}
+#audio-header #audio-nav .audio-nav-left {
+    width: 660px;
+}
+#audio-header #audio-nav .audio-nav-left h1 {
+    font-size: 25px;
+}
+#audio-header #audio-nav .audio-nav-left ul {
+    padding-top: 10px;
+}
+#audio-header #audio-nav .audio-nav-left li a {
+    display: block;
+    padding: 12px 13px 17px 12px;
+    font-size: 17px;
+}
+#audio-header #audio-nav .audio-nav-left li a.on {
+    font-weight: 700;
+}
+
+/*
+after + border-bottom으로 아래줄 넣기
+3차원 요소의 공간 만들기
+left, right로 공간 만들어줌
+*/
+#audio-header #audio-nav .audio-nav-left li a.on span::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+
+    border-bottom: solid 3px #222;
+    border-radius: 1.5px;
+    z-index: 1;
+
+    right: -5.5px;
+    left: -4.5px;
+    bottom: -19px;
+}
+/* after absolute의 위치이동 기준점이 span이 되게 하기 위해
+span에 relative 적용해 줌 */
+#audio-header #audio-nav .audio-nav-left li a span {
+    position: relative;
+    display: inline-block;
+    height: 21px;
+}
+
+
+
+#audio-header #audio-nav .audio-nav-right {
+    width: 330px;
+    height: 100%;
+}
+#audio-header #audio-nav .audio-nav-right .search-wrap {
+    position: relative;
+    width: 180px;
+    height: 40px;
+    background-color: #ffffff;
+}
+#audio-header #audio-nav .audio-nav-right .search-wrap .icon-search {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(../img/search.png) no-repeat;
+    background-size: 20px;
+    background-position: center;
+    margin-top: 3px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+/* 실제 페이지 보니 focus 시 검은색 테두리 생김
+input 태그만 focus 선택자가 먹혀서 position 사용해서 버튼이랑 겹쳐줌
+*/
+#audio-header #audio-nav .audio-nav-right .search-wrap input {
+    width: 100%;
+    height: 100%;
+    padding: 15px 8px 15px 35px;
+    border: solid 2px rgba(0, 86, 201,.2);
+    border-radius: 4px;
+}
+#audio-header #audio-nav .audio-nav-right .search-wrap input:focus {
+    border: solid 3px #000000;
+}
+#audio-header #audio-nav .audio-nav-right .profile-wrap a .profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+#audio-header #audio-nav .audio-nav-right .profile-wrap a span {
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+
+
+
+
+
+/* 각 섹션별 공통디자인 */
+.audio-section {
+    padding: 32px 0;
+}
+.audio-section .audio-header h2 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -.8px;
+}
+.audio-section .audio-header .arrow {
+    width: 16px;
+    height: 16px;
+    background: url(../img/next.png) no-repeat;
+    background-size: 14px;
+    margin: 3px 0 0 5px;
+}
+/* 버튼 표준화 */
+.audio-section .audio-body {
+    position: relative;
+    padding-top: 19px;
+}
+.audio-body .btn {
+    display: none;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-color: olive;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.audio-body:hover .btn {
+    display: initial;
+}
+.audio-body .btn.btn-left {
+    left: -22px;
+}
+.audio-body .btn.btn-right {
+    right: -22px;
+}
+
+
+
+
+/* 오디오클립 추천 오리지널, 새로나온 채널 공통 적용 */
+.audio-section .audio-body {
+    position: relative
+}
+.audio-section .audio-body ul {
+    align-items: flex-start;
+}
+.audio-section .audio-body li {
+    width: 120px;
+}
+.audio-section .audio-body li a img {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+}
+.audio-section .audio-body li a h3 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+.audio-section .audio-body li a .author {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #959595;
+}
+/* section마다 버튼 위치 조정 */
+.audio-section .audio-body .btn {
+    top: 80px;
+}
+
+
+
+
+
+
+/* header가 fixed되어 3차원 속성 -> 뒤에오는 main padding-top으로
+내용이 헤더 아래에서 시작하도록 하기 */
+#audio-main {
+    width: 100%;
+    /* height: 3000px; */
+    padding-top: 62px;
+    background-color: #f6f8fa;
+}
+/* 버튼이 container 넘어가야 해서 overflow-hidden 사용 불가
+대신 flex 사용 */
+#audio-main .audio-container {
+    /* overflow: hidden; */
+    align-items: flex-start;
+    height: 100%;
+}
+#audio-main .audio-main-left {
+    /* float: left; */
+    width: 700px;
+    /* background-color: mistyrose; */
+}
+
+
+/* 오늘의 오디오클립 */
+
+#audio-today .audio-slide-wrap {
+    position: relative;
+    width: 100%;
+}
+#audio-today .audio-slide-wrap .audio-slide {
+    align-items: flex-start;
+}
+#audio-today .audio-slide-wrap .audio-slide img {
+    width: 380px;
+    height: 198px;
+    margin-right: 24px;
+    border: 1px solid rgba(0,0,0,.04);
+    border-radius: 8px;
+}
+#audio-today .audio-slide-wrap .audio-slide .txt-wrap {
+    width: calc(100% - 430px);
+}
+#audio-today .audio-slide-wrap .audio-slide .txt-wrap h3 {
+    font-size: 18px;
+    padding-top: 2px;
+}
+#audio-today .audio-slide-wrap .audio-slide .txt-wrap p {
+    margin-top: 12px;
+}
+/* 버튼 */
+#audio-today .audio-slide-wrap .btn {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* 네이버오디오2 29:41까지 */
+
+
+
+
+
+
+
+
+
+
+
+
+#audio-playlist .audio-header {
+    position: relative;
+}
+#audio-playlist .audio-header p {
+    display: block;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+}
+#audio-playlist .audio-header .link-total {
+    position: absolute;
+
+    padding: 10px 18px 8px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 0 rgb(80 85 91 / 7%);
+
+    font-size: 13px;
+    font-weight: 500;
+    color: #157efb;
+
+    top: 6px;
+    right: 0;
+}
+
+
+
+
+#audio-playlist .audio-body ul {
+    align-items: flex-start;
+}
+#audio-playlist .audio-body li {
+    width: 152px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 rgb(80 85 91 / 7%);
+}
+/* 부모인 li태그 크기 152px (border 포함) */
+#audio-playlist .audio-body li a .img-wrap {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+#audio-playlist .audio-body li a .img-wrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+#audio-playlist .audio-body li a .img-wrap .icon-play {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-color: aqua;
+    border-radius: 50%;
+
+    bottom: -16px;
+    right: 10px;
+}
+#audio-playlist .audio-body li a h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0;
+
+    padding: 17px 11px;
+    background-color: #fff;
+    font-size: 13px;
+    color: #444;
+}
+
+
+
+
+
+#audio-live ul {
+    align-items: flex-start;
+}
+#audio-live li {
+    width: 120px;
+}
+#audio-live li a .img-wrap {
+    /* overflow: hidden; */
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: solid 2px lightgray;
+    border-radius: 50%;
+}
+#audio-live li.active a .img-wrap {
+    border: solid 2px red;
+}
+#audio-live li a .img-wrap img {
+    width: 100%;
+    height: 100%;
+    border: solid 2px #fff;
+    border-radius: 50%;
+}
+#audio-live li a .img-wrap .live-state {
+    position: absolute;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #fff;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -11px;
+}
+#audio-live li a .img-wrap .live-state .live {
+    display: block;
+    padding: 2px 4px;
+
+    border: solid 2px red;
+    border-radius: 3px;
+
+    color: red;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#audio-live li.active a .img-wrap .live-state .live {
+    border: solid 2px red;
+    background-color: red;
+    color: #fff;
+}
+#audio-live li a h3 {
+    margin-top: 16px;
+    font-size: 13px;
+}
+#audio-live li a .time {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #959595;
+}
+#audio-live .audio-body .btn {
+    top: 80px;
+}
+
+
+
+
+
+
+#audio-book .audio-body ul  {
+    align-items: flex-start;
+}
+#audio-book .audio-body ul li {
+    width: 120px;
+
+}
+#audio-book .audio-body li a .img-wrap {
+    position: relative;
+    width: 100%;
+}
+#audio-book .audio-body li a .img-wrap img {
+    width: 100%;
+}
+/* 강의에선 부모 img-wrap의 높이값이 없어서 bottom이 적용되지 않았는데
+나는 그냥 됐다 왜지? 아 이미지도 absolute라서 강의영상에선 안 됐었음. 나는 안 줬었음
+*/
+#audio-book .audio-body li a .img-wrap .time {
+    position: absolute;
+    background-color: rgba(17, 17, 17, .75);
+    padding: 2px 5px;
+    border-radius: 1px;
+
+    font-size: 11px;
+    color: #fff;
+
+    bottom: 5px;
+    right: 5px;
+}
+
+#audio-book .audio-body li a h3 {
+    margin-top: 11px;
+    font-size: 13px;
+}
+#audio-book .audio-body li a span {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    color: #959595;
+}
+
+#audio-book .audio-body li a .price {
+    color: #000;
+}
+#audio-book .audio-body .btn {
+    top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#audio-main .audio-main-right {
+    /* float: right; */
+    width: 330px;
+    height: 100%;
+    /* background-color: linen; */
+}
+
+
+
+
+
+#audio-intro .audio-body li {
+    width: 152px;
+}
+#audio-intro .audio-body li a img {
+    width: 152px;
+    height: 152px;
+    border-radius: 4px;
+}
+/* 글자를 입력할 때는 정보를 뜻하는 태그를 사용하는 것이
+웹 표준(웹 접근성)에 맞다. div는 공간 만들 때 사용 */
+#audio-intro .audio-body li a h3 {
+    margin-top: 12px;
+    font-size: 13px;
+}
+#audio-intro .audio-body li a .source {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #959595;
+}
+
+
+
+
+#audio-discovery .audio-header {
+    position: relative;
+}
+#audio-discovery .audio-header h2 {
+    font-size: 17px;
+    line-height: 24px;
+}
+#audio-discovery .audio-header p {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #888;
+}
+/* 기존에 만들어 놓은 코드 그대로 사용 */
+#audio-discovery .audio-header .link-setting{
+    position: absolute;
+    padding: 10px 18px 8px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 0 rgb(80 85 91 / 7%);
+    font-size: 13px;
+    font-weight: 500;
+    color: #157efb;
+    top: 6px;
+    right: 0;
+}
+
+
+#audio-discovery .audio-body li {
+    width: 152px;
+    margin-bottom: 40px;
+}
+#audio-discovery .audio-body li a img {
+    width: 152px;
+    height: 152px;
+    border-radius: 4px;
+}
+#audio-discovery .audio-body li a h3 {
+    margin-top: 12px;
+    font-size: 13px;
+}
+/* inline-block 속성은 margin: 0 auto 안 됨
+block 속성으로 바꿔서 x축 한 줄 전부 차지한 후 그 안에서
+중앙 정렬 하기
+ */
+#audio-discovery .audio-body .btn-more {
+    display: block;
+    margin: 0 auto;
+
+    padding: 12px 21px;
+    background-color: #fff;
+    border-radius: 24px;
+    border: solid 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 10px 0 rgb(80 85 91 / 7%);
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #222;
+}
+#audio-discovery .audio-body .btn-more .color-blue {
+    color: #157efb;
+}
+#audio-discovery .audio-body .btn-more .pages {
+    color: #959595;
+}
+
+
+
+/* 강의와 다르게 거의 모든걸 a태그로 감싸주다보니
+레이아웃이 좀 달라지는 경우가 많음 */
+#audio-create .audio-body ul {
+    width: 100%;
+}
+#audio-create .audio-body li {
+    width: 100%;
+    height: 90px;
+    border-top: 1px solid #efefef;
+}
+#audio-create .audio-body li:last-child {
+    border-bottom: 1px solid #efefef;
+}
+#audio-create .audio-body li a {
+    width: 100%;
+}
+#audio-create .audio-body li a .txt-wrap {
+    width: 225px;
+}
+#audio-create .audio-body li a .txt-wrap h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+#audio-create .audio-body li a .txt-wrap p {
+    margin-top: 6px;
+    font-size: 14px;
+    letter-spacing: -.8px;
+}
+#audio-create .audio-body li a .txt-wrap p.color-blue {
+    color: #157efb;
+}
+#audio-create .audio-body li a .txt-wrap p.color-purple {
+    color: #8560f7;
+}
+#audio-create .audio-body li a .list-bg {
+    width: 80px;
+    height: 64px;
+}
+#audio-create .audio-body li a .list-bg.list-bg-1 {
+    background-color: #157efb;
+}
+#audio-create .audio-body li a .list-bg.list-bg-2 {
+    background-color: #8560f7;
+}
+
+
+
+
+
+
+
+#audio-footer {
+    background-color: #eaecef;
+    padding: 48px 0 164px;
+
+}
+#audio-footer a,
+#audio-footer p {
+    color: #959595;
+}
+#audio-footer h1 {
+    font-size: 25px;
+}
+/* text 줄간격 조절하기: line-height */
+#audio-footer .copyright-wrap p {
+    margin-top: 37px;
+    font-size: 13px;
+    letter-spacing: -.3px;
+    line-height: 25px;
+}
+#audio-footer .footer-nav {
+    margin-top: 47px;
+}
+#audio-footer .footer-nav ul {
+    overflow: hidden;
+}
+#audio-footer .footer-nav li {
+    float: left;
+}
+#audio-footer .footer-nav li a {
+    font-size: 13px;
+    line-height: 20px;
+}
+#audio-footer .footer-nav li a::after {
+    display: inline-block;
+    margin: 12px 7px 0;
+    vertical-align: top;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #959595;
+    content: "";
+}
+#audio-footer .footer-nav li:last-child a::after {
+    content: none;
+}
+#audio-footer .footer-link-copyright {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+
+/* 오디오 카테고리 */
+#audio-main.audio-sub-main {
+    background-color: #ffffff;
+}
+#audio-main .audio-category {
+    padding-top: 71px;
+}
+#audio-main .audio-category .title-wrap {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ececec;
+}
+#audio-main .audio-category .title-wrap h2 {
+    font-size: 27px;
+    font-weight: 600;
+}
+#audio-main .audio-category .title-wrap p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #959595;
+}
+
+/* 모든 줄의 요소 개수가 다르면 flex-between의 레이아웃이 틀어짐 */
+#audio-main .audio-category .audio-category-lists {
+    margin-top: 22px;
+
+}
+#audio-main .audio-category .audio-category-lists li {
+    width: 162px;
+    height: 164px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* nth-child() 활용
+n
+odd 홀수, even 짝수
+*/
+#audio-main .audio-category .audio-category-lists li:nth-child(6n) {
+    margin-right: 0;
+}
+#audio-main .audio-category .audio-category-lists li:nth-child(even) a {
+    background-color: rgb(230, 125, 127);
+}
+#audio-main .audio-category .audio-category-lists li:nth-child(4n+1) a {
+    background-color: rgb(225, 187, 114);
+}
+#audio-main .audio-category .audio-category-lists a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 134, 247);
+    border-radius: 6px;
+    padding: 14px;
+}
+#audio-main .audio-category .audio-category-lists a h3 {
+    font-size: 19px;
+    line-height: 1.3;
+    color: #ffffff;
+}
+#audio-main .audio-category .audio-category-lists a p {
+    position: absolute;
+    width: 80px;
+    font-size: 13px;
+    color: #fefefe;
+
+    /* left: 0; */
+    bottom: 14px;
+}
+#audio-main .audio-category li a .thumbnail {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+
+    right: -17px;
+    bottom: 0;
+
+    transform: rotate(25deg);
+}
+
+
+#audio-category-book {
+    padding-bottom: 120px;
+}
+
+
+
+
+
+
+
+/* eSport Main Right */
+#esport-main .right {
+    float: right;
+    width: 357px;
+    height: 2000px;
+    /* background-color: gray; */
+}
+
+/* eSport News View */
+#esport-news-view {
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 10px;
+
+    margin-bottom: 30px;
+}
+
+#esport-news-view h2 {
+    font-size: 18px;
+}
+
+#esport-news-view ol {
+    margin-top: 20px;
+}
+
+#esport-news-view li {
+    margin-bottom: 8px;
+}
+
+#esport-news-view li:last-child {
+    margin-bottom: 0;
+}
+
+#esport-news-view li a {
+}
+
+#esport-news-view .image-wrap {
+    overflow: hidden;
+    position: relative;
+    width: 84px;
+    height: 48px;
+    border: solid 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+#esport-news-view .image-wrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#esport-news-view .image-wrap .rank {
+    position: absolute;
+    background-color: #4e41db;
+    border-bottom-right-radius: 4px;
+
+    padding: 4px 10px;
+
+    top: 0;
+    left: 0;
+
+    font-size: 13px;
+    color: #fff;
+    font-weight: 800;
+}
+
+#esport-news-view li h3 {
+    display: -webkit-box;
+    overflow: hidden;
+
+    width: 218px;
+    max-height: 38px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
+    font-size: 14px;
+    line-height: 19px;
+}
+
+/* eSport Schedule */
+#esport-schedule {
+}
+
+#esport-schedule h2 {
+    font-size: 18px;
+}
+
+#esport-schedule .schedule-wrap {
+    margin-top: 15px;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+
+#esport-schedule .schedule-wrap .schedule-header {
+    padding: 10px 15px;
+    border-bottom: solid 1px gray;
+}
+
+#esport-schedule .schedule-wrap .schedule-header .arrow {
+    width: 20px;
+    height: 20px;
+}
+
+#esport-schedule .schedule-wrap .schedule-header .arrow.arrow-left {
+    background-color: yellow;
+}
+
+#esport-schedule .schedule-wrap .schedule-header .arrow.arrow-right {
+    background-color: greenyellow;
+}
+
+#esport-schedule .schedule-wrap .schedule-header span {
+    position: relative;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    top: 3px;
+}
+
+#esport-schedule .schedule-body {
+    padding: 17px 0;
+}
+
+#esport-schedule .schedule-body li {
+}
+
+#esport-schedule .schedule-body li:first-child::after {
+    content: '';
+    display: block;
+    width: calc(100%-40px);
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.05);
+
+    margin: 17px auto;
+}
+
+#esport-schedule .schedule-body li h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+#esport-schedule .schedule-body li .status-wrap {
+}
+
+#esport-schedule .schedule-body li .status-wrap:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#esport-schedule .schedule-body li .status-wrap .status {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: red;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 3px;
+
+    margin-right: 4.5px;
+
+    padding: 2px 4px;
+}
+
+#esport-schedule .schedule-body li .status-wrap .time {
+    position: relative;
+
+    top: 1px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Audio Page */
+.audio-container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.audio-flex-between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-flex-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.audio-flex-end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.audio-flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#audio-header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #efeff4;
+
+    left: 0;
+    top: 0;
+
+    z-index: 99999;
+}
+
+#audio-header .audio-nav-left {
+    width: 660px;
+}
+
+#audio-header .audio-nav-left .audio-logo {
+    font-size: 25px;
+}
+
+#audio-header .audio-nav-left .audio-logo a {
+}
+
+#audio-header .audio-nav-left ul {
+    padding-top: 10px;
+}
+
+#audio-header .audio-nav-left li {
+}
+
+#audio-header .audio-nav-left li a {
+    display: block; /* 상하 패딩 값을 정상적으로 인식하게 된다. */
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 13px 17px 12px;
+}
+
+#audio-header .audio-nav-left li a.active {
+    font-weight: 700;
+}
+
+#audio-header .audio-nav-left li a span {
+    position: relative;
+    display: inline-block;
+    height: 21px;
+}
+
+#audio-header .audio-nav-left li a.active span::after {
+    display: block;
+    position: absolute;
+    content: '';
+    border-bottom: solid 3px #222;
+    border-radius: 1.5px;
+
+    z-index: 1;
+
+    left: -4.5px;
+    right: -5.5px;
+    bottom: -17px;
+}
+
+#audio-header .audio-nav-right {
+    width: 330px;
+}
+
+#audio-header .audio-nav-right .search-wrap {
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border: solid 2px rgba(0, 86, 201, 0.2);
+    border-radius: 4px;
+}
+
+#audio-header .audio-nav-right .search-wrap .icon-search {
+    width: 40px;
+    height: 100%;
+    background-color: yellow;
+}
+
+#audio-header .audio-nav-right .search-wrap input {
+    width: calc(100% - 40px);
+    height: 100%;
+
+    padding: 8px 15px;
+    font-size: 14px;
+
+    outline: none;
+    border: none;
+}
+
+#audio-header .audio-nav-right .search-wrap input:focus {
+    outline: none;
+}
+
+#audio-header .audio-nav-right .profile-wrap {
+}
+
+#audio-header .audio-nav-right .profile-wrap .profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#audio-header .audio-nav-right .profile-wrap .btn-login {
+    font-size: 15px;
+    padding-left: 8px;
 }
