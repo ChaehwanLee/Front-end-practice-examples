@@ -1,0 +1,72 @@
+/* html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+
+} */
+
+/* --- */
+
+
+/* h1 {
+  color: blue;
+}
+
+h1 {
+  color: red;
+} */
+
+/* cascading 때문에 나중에 적은 것이 적용된다. */
+
+/* --- */
+
+/* :root {
+  --black: #18181a;
+  --purple: #9147ff;
+  --font-size-40: 40px;
+} */
+
+:root {
+  --black: #18181a;
+  --brand-color: #9147ff;
+  --font-size-40: 40px;
+}
+
+h1 {
+  background-color: var(--black);
+  font-size: var(--font-size-40);
+  color: var(--purple);
+}
+
+h2 {
+  color: var(--brand-color);
+}
+
+
+#intro {
+    --font-color: blue;
+    --font-color: 50px;
+}
+
+/* 변수는 인트로 안에서만 사용 가능 */
+
+#intro p {
+    font-size: var(--font-size);
+    color: var(--font-color);
+}
+
+#footer p {
+    font-size: var(--font-size);
+    color: var(--font-color);
+}
